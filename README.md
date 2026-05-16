@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏢 Corporate HRM System
 
-## Getting Started
+A modern, high-performance, and feature-rich **Human Resource Management (HRM) System** built with **Next.js 14**, **Tailwind CSS**, and **Framer Motion**. Designed for enterprises to manage their workforce with elegance and efficiency.
 
-First, run the development server:
+![HRM System Banner](https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200)
 
+## ✨ Key Features
+
+- 🌓 **Advanced Theme System**: Seamless switching between Light, Dark, and System modes.
+- 📊 **Dynamic Dashboard**: Real-time insights into employee statistics, attendance, and performance charts.
+- 👥 **Employee Management**: Full lifecycle management from onboarding to profile tracking.
+- 🕒 **Time & Attendance**: Track daily attendance, late arrivals, and leave requests.
+- 💸 **Payroll & Expenses**: Manage salaries with printable slip previews and expense claim tracking.
+- 🎯 **Performance (KPI)**: Monitor employee targets and quarterly review cycles.
+- 🎓 **Training & Development**: Manage internal training sessions and track employee skill progress.
+- 🚀 **Recruitment Pipeline**: Kanban-style board for applicant tracking and job postings.
+- ⚙️ **System Settings**: Complete control over company branding and localization.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **State/Theme**: [next-themes](https://github.com/pacocoursey/next-themes)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Charts**: [Recharts](https://recharts.org/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Typography**: Inter (Google Fonts)
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/mamunaio/hrm.git
+cd hrm
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔑 Demo Credentials
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Email**: `admin@company.com`
+- **Password**: `123456`
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+| Dashboard (Light) | Dashboard (Dark) |
+| :---: | :---: |
+| ![Light Mode](https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=400) | ![Dark Mode](https://images.unsplash.com/photo-1551288049-bbbda5366391?auto=format&fit=crop&q=80&w=400) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Built with ❤️ by [Mamun Hossain](https://github.com/mamunaio)
