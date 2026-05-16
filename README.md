@@ -64,4 +64,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-Built with ❤️ by [Mamun Hossain](https://github.com/mamunaio)
+Built with ❤️ by [Injaazh Global](https://github.com/mamunaio)
