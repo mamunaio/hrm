@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #F9FAFB;
+  --foreground: #111827;
+  --primary: #1A56DB;
+  --success: #057A55;
+  --warning: #C27803;
+  --danger: #C81E1E;
+  --purple: #7E3AF2;
+  --light-bg: #F9FAFB;
+  --card-bg: #FFFFFF;
+  --border: #E5E7EB;
+  --font-inter: "Inter", sans-serif;
+}
+
+.dark {
+  --background: #0F172A;
+  --foreground: #F8FAFC;
+  --primary: #3B82F6;
+  --success: #10B981;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  --purple: #8B5CF6;
+  --light-bg: #0F172A;
+  --card-bg: #1E293B;
+  --border: #334155;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-purple: var(--purple);
+  --color-light-bg: var(--light-bg);
+  --color-card-bg: var(--card-bg);
+  --color-border: var(--border);
+  --font-inter: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}
+
+.sidebar-item-active {
+  @apply bg-primary text-white;
+}
+
+.card {
+  @apply bg-card-bg border border-border rounded-xl shadow-sm;
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-4 py-2 rounded-lg font-medium hover:opacity-90 transition-all;
+}
+
+.status-badge {
+  @apply px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.status-active { @apply bg-green-100 text-success dark:bg-green-900/30; }
+.status-leave { @apply bg-amber-100 text-warning dark:bg-amber-900/30; }
+.status-resigned { @apply bg-red-100 text-danger dark:bg-red-900/30; }
+.status-probation { @apply bg-blue-100 text-primary dark:bg-blue-900/30; }
